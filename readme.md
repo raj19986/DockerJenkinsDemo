@@ -1,19 +1,19 @@
-#Docker Jenkins Demo
+##Docker Jenkins Demo
 
 This repository will run a jenkins instance on docker. After that, we will create a simple Jenkins job
 which periodically builds a code.
 
-##Prerequisites
+###Prerequisites
 1) Ubuntu18.04
 2) Docker should be installed on the host machine
 
 >> Assumption: We will assume that docker is already installed on the host machine
 
-##Launch Jenkins on Docker
+###Launch Jenkins on Docker
 - Step 1) Simple execute the myscript.sh in terminal
 - Step 2) visit http://localhost:8080/
 
-##Create a Jenkins JOB
+###Create a Jenkins JOB
 - Create a new job via "New Item" in Dashboard
 - In "Enter an item Name" -> put "Hello World"
 - Select "Freestyle project"
@@ -31,7 +31,7 @@ which periodically builds a code.
 - Finally "Save" the job configuration
 
 
-## RUN
+### RUN
 - SELECT "Build Now" for "Hello World" job.
 - CAn see the logs in "Console Output"
 
